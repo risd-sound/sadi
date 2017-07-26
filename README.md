@@ -20,6 +20,7 @@ Shawn Greenlee (Associate Professor, RISD) will lead a workshop on designing sou
 
 **Agenda 5 hours:**
 
+0. Sonic interaction and experience part 1
 1. Introduction to programming in Pure Data (Pd)
 2. Patch along: making a tone generator in Pd (sound synthesis basics)
 3. Introduction to GUI design with MobMuPlat editor
@@ -28,7 +29,7 @@ Shawn Greenlee (Associate Professor, RISD) will lead a workshop on designing sou
 6. Using system messages for accessing device sensors
 7. Patch along: using accelerometer data with tone generator
 8. SHORT BREAK
-9. Sonic interaction and auditory display ideas
+9. Sonic interaction and experience part 2
 10. Sampling (manipulating recorded sound)
 11. Group assignment brief
 12. Work-time and assistance
