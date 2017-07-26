@@ -21,15 +21,17 @@ Shawn Greenlee (Associate Professor, RISD) will lead a workshop on designing sou
 **Agenda 5 hours:**
 
 1. Introduction to programming in Pure Data (Pd)
-2. Making a tone generator in Pd (sound synthesis basics)
+2. Patch along: making a tone generator in Pd (sound synthesis basics)
 3. Introduction to GUI design with MobMuPlat editor
-4. Transferring project files to your mobile device
-5. Trying out system messages for accessing device sensors (i.e. accelerometer + tone generator)
-SHORT BREAK
-6. Sonic interaction ideas
-7. Sampling (manipulating recorded sound)
-8. Assignment
-9. Work-time and assistance
+4. Patch along: making a GUI for tone generator
+5. Transferring project files to your mobile device
+6. Using system messages for accessing device sensors
+7. Patch along: using accelerometer data with tone generator
+8. SHORT BREAK
+9. Sonic interaction and auditory display ideas
+10. Sampling (manipulating recorded sound)
+11. Assignment brief
+12. Work-time and assistance
 
 ---
 
