@@ -30,7 +30,7 @@ Shawn Greenlee (Associate Professor, RISD) will lead a workshop on designing sou
 8. SHORT BREAK
 9. Sonic interaction and auditory display ideas
 10. Sampling (manipulating recorded sound)
-11. Assignment brief
+11. Group assignment brief
 12. Work-time and assistance
 
 ---
