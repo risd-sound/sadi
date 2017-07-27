@@ -22,12 +22,12 @@ Shawn Greenlee (Associate Professor, RISD) will lead a workshop on designing sou
 *Sonic interaction and experience part 1*
 * Overview
 * Introduction to programming in Pure Data (Pd)
-••* Patch along: making a tone generator in Pd (sound synthesis basics)
+⋅⋅* Patch along: making a tone generator in Pd (sound synthesis basics)
 * Introduction to GUI design with MobMuPlat editor
-••* Patch along: making a GUI for tone generator
+⋅⋅* Patch along: making a GUI for tone generator
 * Transferring project files to your mobile device
 * Using system messages for accessing device sensors
-••*Patch along: using accelerometer data with tone generator
+⋅⋅*Patch along: using accelerometer data with tone generator
 
 SHORT BREAK
 
