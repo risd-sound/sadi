@@ -1,5 +1,4 @@
 # sadi
-=========
 
 Workshop code for SADI workshop: sonic interaction and experience, July 31 - August 4, 2017
 
@@ -20,19 +19,22 @@ Shawn Greenlee (Associate Professor, RISD) will lead a workshop on designing sou
 
 **Agenda 5 hours:**
 
-0. Sonic interaction and experience part 1
-1. Introduction to programming in Pure Data (Pd)
-2. Patch along: making a tone generator in Pd (sound synthesis basics)
-3. Introduction to GUI design with MobMuPlat editor
-4. Patch along: making a GUI for tone generator
-5. Transferring project files to your mobile device
-6. Using system messages for accessing device sensors
-7. Patch along: using accelerometer data with tone generator
-8. SHORT BREAK
-9. Sonic interaction and experience part 2
-10. Sampling (manipulating recorded sound)
-11. Group assignment brief
-12. Work-time and assistance
+*Sonic interaction and experience part 1*
+* Overview
+* Introduction to programming in Pure Data (Pd)
+..* Patch along: making a tone generator in Pd (sound synthesis basics)
+* Introduction to GUI design with MobMuPlat editor
+..* Patch along: making a GUI for tone generator
+* Transferring project files to your mobile device
+* Using system messages for accessing device sensors
+..*Patch along: using accelerometer data with tone generator
+
+SHORT BREAK
+*Sonic interaction and experience part 2*
+* Interaction ideas
+* Sampling (manipulating recorded sound)
+* Group assignment brief
+* Work-time and assistance
 
 ---
 
