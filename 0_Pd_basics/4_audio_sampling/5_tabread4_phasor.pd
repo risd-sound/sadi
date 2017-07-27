@@ -1,0 +1,67 @@
+#N canvas 320 23 960 684 10;
+#X obj 155 146 openpanel;
+#X msg 155 172 open \$1;
+#X obj 155 123 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 225 622 dac~;
+#X msg 86 528 \; pd dsp \$1;
+#X obj 86 505 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X text 108 501 <- turn on sound;
+#X obj 277 229 soundfiler;
+#N canvas 0 22 450 300 (subpatch) 0;
+#X array soundbuffer3 5335 float 2;
+#X coords 0 1 5335 -1 200 140 1;
+#X restore 549 340 graph;
+#X obj 293 290 expr 44100 / $f1;
+#X floatatom 293 327 10 0 0 0 - - -, f 10;
+#X obj 293 386 phasor~;
+#X obj 225 419 *~;
+#X obj 225 558 *~ 0.7;
+#X floatatom 264 531 5 0 1 0 - - -, f 5;
+#X obj 349 230 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X text 372 228 <- reset normal speed;
+#X msg 332 359 0;
+#X text 373 326 <- playback speed;
+#X msg 76 300 5335;
+#X msg 155 199 read -resize \$1 soundbuffer3;
+#X obj 225 452 tabread4~ soundbuffer3;
+#X text 366 131 Use a [phasor~] to loop sound files.;
+#X text 366 360 <- cue position (phase);
+#X obj 293 263 f;
+#X obj 651 151 hsl 128 15 -2 2 0 0 empty empty -2_to_+2 20 -8 0 10
+-262144 -1 -1 0 1;
+#X floatatom 648 175 5 0 0 0 - - -, f 5;
+#X text 670 75 <- reset normal speed;
+#X obj 648 99 f;
+#X obj 648 76 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X floatatom 222 386 10 0 0 0 - - -, f 10;
+#X msg 76 267 set \$1;
+#X connect 0 0 1 0;
+#X connect 1 0 20 0;
+#X connect 2 0 0 0;
+#X connect 5 0 4 0;
+#X connect 7 0 24 0;
+#X connect 7 0 30 0;
+#X connect 7 0 31 0;
+#X connect 9 0 10 0;
+#X connect 9 0 28 1;
+#X connect 10 0 11 0;
+#X connect 11 0 12 0;
+#X connect 12 0 21 0;
+#X connect 13 0 3 0;
+#X connect 13 0 3 1;
+#X connect 14 0 13 1;
+#X connect 15 0 24 0;
+#X connect 17 0 11 1;
+#X connect 20 0 7 0;
+#X connect 21 0 13 0;
+#X connect 24 0 9 0;
+#X connect 25 0 26 0;
+#X connect 26 0 10 0;
+#X connect 28 0 25 0;
+#X connect 29 0 28 0;
+#X connect 30 0 12 1;
+#X connect 31 0 19 0;

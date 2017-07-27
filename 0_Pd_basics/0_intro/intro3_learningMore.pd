@@ -1,0 +1,17 @@
+#N canvas 320 23 960 684 10;
+#X text 143 327 Also worth checking out:;
+#X text 138 78 LEARNING MORE;
+#X text 139 146 You can sign up for discussion lists here: http://puredata.info/community/lists
+;
+#X text 143 352 FLOSS manual: http://en.flossmanuals.net/PureData/
+;
+#X text 143 382 Miller Puckette's online documentation: http://msp.ucsd.edu/Pd_documentation/
+;
+#X text 143 422 Miller's book \, The Theory and Technique of Electronic
+Music: http://msp.ucsd.edu/techniques.htm;
+#X text 139 194 I highly recommend Andy Farnell's book Designing Sound:
+http://mitpress.mit.edu/books/designing-sound;
+#X text 139 242 Another great text: Programming Electronic Music in
+Pd by Johannes Kreidler: http://www.pd-tutorial.com/;
+#X text 138 111 The primary community resource is: http://puredata.info/
+;

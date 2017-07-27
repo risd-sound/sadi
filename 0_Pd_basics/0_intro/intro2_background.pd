@@ -1,0 +1,24 @@
+#N canvas 320 23 960 684 10;
+#X text 106 91 Pd (Pure Data) is a visual programming language \, sometimes
+called a dataflow language. It allows you patch together "objects"
+to make your own programs. Each object is a bit of C code that functions
+like a "black box machine." When patching \, you only need to worry
+about the input and output of these objects (which we could also call
+functions and are often called "externals" by the Max & Pd community).
+;
+#X text 52 315 Pd runs in "real-time \, " meaning that you do not need
+to compile the program for it to run. In Pd you can be in one of two
+modes: edit or run.;
+#X text 540 139 There are many objects in the "vanilla" distribution
+of Pd. You can even code objects yourself \, so Pd is a great environment
+for running your own bits of code. Objects are mostly written in C.
+You can also create your own libraries of "abstractions" which are
+sub-patches you plan to use alot. These work like objects \, but are
+created with Pd.;
+#X text 501 343 Pd was created by Miller Puckette in the mid-90s \,
+as an open source project. It is a part of a family of patcher programming
+languages \, the most famous of which is it's commercial cousin Max/MSP
+(Cycling '74). Notably \, Miller is the author of the original Max
+program developed in the 1980s. The program 'Max' was named Max Mathews.
+Max Mathews' Music N languages were the basis for many of today's computer
+music programming languages.;

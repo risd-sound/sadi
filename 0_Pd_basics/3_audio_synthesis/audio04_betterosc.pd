@@ -1,0 +1,49 @@
+#N canvas 320 23 1135 754 10;
+#X obj 443 592 dac~;
+#X msg 108 205 \; pd dsp \$1;
+#X obj 108 162 tgl 30 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 442 290 osc~ 440;
+#X text 145 161 <- turn on sound;
+#X obj 574 442 line~;
+#X obj 443 503 *~;
+#X obj 574 373 pack f 20;
+#X floatatom 574 351 5 0 0 0 - - -, f 5;
+#X obj 442 251 line~;
+#X floatatom 442 109 5 0 0 0 - - -, f 5;
+#X obj 445 66 hsl 200 30 0 1 0 0 empty empty empty -2 -8 0 10 -262144
+-1 -1 0 1;
+#X obj 442 173 * 1000;
+#X floatatom 549 173 5 0 0 0 - - -, f 5;
+#X text 656 65 <- hslider for a GUI;
+#X text 619 172 <- adjust the glide between freq.;
+#X obj 442 212 pack f 200;
+#X text 520 263 <- line~ enables signal control over the osc~ freq.
+;
+#X floatatom 670 351 5 0 0 0 - - -, f 5;
+#X text 738 369 <- adjust ramp for volume changes;
+#X text 642 441 <- line~ enables signal control over volume;
+#X text 109 65 A BETTER OSCILLATOR MODULE;
+#X obj 577 312 hsl 200 30 0 1 0 0 empty empty empty -2 -8 0 10 -262144
+-1 -1 0 1;
+#X text 788 311 <- hslider for a GUI;
+#X text 575 225 <- pack is handy for formatting a message;
+#X msg 239 390 341.709 200;
+#X msg 239 345 set \$1 \$2;
+#X connect 2 0 1 0;
+#X connect 3 0 6 0;
+#X connect 5 0 6 1;
+#X connect 6 0 0 0;
+#X connect 6 0 0 1;
+#X connect 7 0 5 0;
+#X connect 8 0 7 0;
+#X connect 9 0 3 0;
+#X connect 10 0 12 0;
+#X connect 11 0 10 0;
+#X connect 12 0 16 0;
+#X connect 13 0 16 1;
+#X connect 16 0 9 0;
+#X connect 16 0 26 0;
+#X connect 18 0 7 1;
+#X connect 22 0 8 0;
+#X connect 26 0 25 0;
