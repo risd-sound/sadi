@@ -20,8 +20,8 @@ Shawn Greenlee (Associate Professor, RISD) will lead a workshop on designing sou
 **Agenda 5 hours:**
 
 *Sonic interaction and experience part 1*
-* Overview
-* Introduction to programming in Pure Data (Pd)
+* Overview of NIME and SID, examples, Pd as prototyping platform for mobile and embedded computing
+* Introduction to programming in Pd
 * Patch along: making a tone generator in Pd (sound synthesis basics)
 * Introduction to GUI design with MobMuPlat editor
 * Patch along: making a GUI for tone generator
@@ -34,7 +34,7 @@ SHORT BREAK
 *Sonic interaction and experience part 2*
 * Interaction ideas
 * Sampling (manipulating recorded sound)
-* Group assignment brief
+* Group assignment discussion
 * Work-time and assistance
 
 ---
@@ -45,5 +45,11 @@ SHORT BREAK
 * Code from Programming Sound: Performance Systems course at RISD:  <a href="https://github.com/risd-sound/psps" target="_blank">https://github.com/risd-sound/psps</a>  
 * YouTube videos by Shawn using Pd-extended (not currently supported, but most applies): https://www.youtube.com/watch?v=HrX5y-vu0j8&feature=youtu.be&list=PLyFjYyw48iUd0MLWarDxpBIqhRaMNID95
 * MobMuPlat alternatives Pd Party (iOS): https://github.com/danomatika/PdParty and Pd Droid Party (Android) http://droidparty.net
+
+**Examples links:**
+* <a href="https://youtu.be/uY-hOCyBudo" target="_blank">RISD Programming Sound 2015 class concert</a>
+* <a href="http://libpd.cc/portfolio/showcase/">http://libpd.cc/portfolio/showcase/</a>
+* <a href="http://danieliglesia.com/mobmuplat/">http://danieliglesia.com/mobmuplat/</a>
+* <a href="http://bela.io" target="_blank">http://bela.io</a>
 
 ---
