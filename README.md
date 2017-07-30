@@ -19,8 +19,9 @@ Shawn Greenlee (Associate Professor, RISD) will lead a workshop on designing sou
 
 **Agenda 5 hours:**
 
-*Sonic interaction and experience part 1*
-* Overview of NIME and SID, examples, Pd as prototyping platform for mobile and embedded computing
+PART 1
+
+* Quick overview of NIME (new interfaces for musical expression) and SID (sonic interaction design), examples, Pd as prototyping/development platform for mobile and embedded computing (i.e. product sound design, interactive art and music, apps and games)
 * Introduction to programming in Pd
 * Patch along: making a tone generator in Pd (sound synthesis basics)
 * Introduction to GUI design with MobMuPlat editor
@@ -29,12 +30,16 @@ Shawn Greenlee (Associate Professor, RISD) will lead a workshop on designing sou
 * Using system messages for accessing device sensors
 * Patch along: using accelerometer data with tone generator
 
-SHORT BREAK
+PART 2
 
-*Sonic interaction and experience part 2*
-* Interaction ideas
+* Interaction ideas, looking at MobMuPlat examples
 * Sampling (manipulating recorded sound)
-* Group assignment discussion
+* Tour of a drum machine
+* Tour of sample scrubbers
+
+PART 3
+
+* Group assignment and discussion
 * Work-time and assistance
 
 ---
@@ -46,10 +51,12 @@ SHORT BREAK
 * YouTube videos by Shawn using Pd-extended (not currently supported, but most applies): https://www.youtube.com/watch?v=HrX5y-vu0j8&feature=youtu.be&list=PLyFjYyw48iUd0MLWarDxpBIqhRaMNID95
 * MobMuPlat alternatives Pd Party (iOS): https://github.com/danomatika/PdParty and Pd Droid Party (Android) http://droidparty.net
 
-**Examples links:**
+**Some examples, links:**
 * <a href="https://youtu.be/uY-hOCyBudo" target="_blank">RISD Programming Sound 2015 class concert</a>
 * <a href="http://libpd.cc/portfolio/showcase/">http://libpd.cc/portfolio/showcase/</a>
 * <a href="http://danieliglesia.com/mobmuplat/">http://danieliglesia.com/mobmuplat/</a>
 * <a href="http://bela.io" target="_blank">http://bela.io</a>
-
+* <a href="http://nime.org" target="_blank">http://nime.org</a>
+* <a href="https://www.youtube.com/watch?v=beLxqGKvI-M" target="_blank">Best of NIME 2014 Goldsmiths</a>
+* <a href="http://sid.bek.no/Works?filter=exhibition" target="_blank">Sonic Interaction Design exhibition Oslo</a>
 ---
