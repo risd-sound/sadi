@@ -302,15 +302,15 @@ are non-zero (remember right-to-left operation);
 #X connect 17 0 9 0;
 #X restore 432 253 pd random;
 #N canvas 320 22 960 675 number_ranges 0;
-#X obj 113 411 moses 10;
-#X floatatom 113 376 5 0 0 0 - - -, f 5;
-#X floatatom 113 458 5 0 0 0 - - -, f 5;
-#X floatatom 198 458 5 0 0 0 - - -, f 5;
+#X obj 101 263 moses 10;
+#X floatatom 101 228 5 0 0 0 - - -, f 5;
+#X floatatom 101 310 5 0 0 0 - - -, f 5;
+#X floatatom 186 310 5 0 0 0 - - -, f 5;
 #X floatatom 80 46 5 0 0 0 - - -, f 5;
 #X floatatom 80 129 5 0 0 0 - - -, f 5;
 #X obj 80 82 clip 0 100;
 #X text 160 81 <- only output a particular range of numbers;
-#X text 270 408 <- part a stream of numbers \, everything before the
+#X text 258 260 <- part a stream of numbers \, everything before the
 argument goes out the left outlet \, everything after out the right
 ;
 #X obj 676 108 change;
@@ -320,20 +320,18 @@ argument goes out the left outlet \, everything after out the right
 #X msg 663 46 0;
 #X msg 725 46 9;
 #X obj 676 155 print;
-#X floatatom 112 630 5 0 0 0 - - -, f 5;
-#X floatatom 181 630 5 0 0 0 - - -, f 5;
-#X msg 112 537 33 44;
-#X obj 112 583 swap;
-#X msg 209 537 55 22;
-#X text 280 579 <- swap numbers \, thus changing right to left order
+#X floatatom 100 482 5 0 0 0 - - -, f 5;
+#X floatatom 169 482 5 0 0 0 - - -, f 5;
+#X msg 100 389 33 44;
+#X obj 100 435 swap;
+#X msg 197 389 55 22;
+#X text 268 431 <- swap numbers \, thus changing right to left order
 ;
 #X obj 76 192 cnv 5 650 5 empty empty empty 20 12 0 14 -233017 -66577
 0;
-#X obj 81 356 cnv 5 650 5 empty empty empty 20 12 0 14 -233017 -66577
-0;
 #X obj 245 9 cnv 5 650 5 empty empty empty 20 12 0 14 -233017 -66577
 0;
-#X obj 87 514 cnv 5 650 5 empty empty empty 20 12 0 14 -233017 -66577
+#X obj 75 366 cnv 5 650 5 empty empty empty 20 12 0 14 -233017 -66577
 0;
 #X text 760 107 <- remove redundancy;
 #X connect 0 0 2 0;

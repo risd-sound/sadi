@@ -12,7 +12,7 @@ Shawn Greenlee (Associate Professor, RISD) will lead a workshop on designing sou
 3. Download MobMuPlat development package: <a href="http://danieliglesia.com/mobmuplat/" target="_blank">http://danieliglesia.com/mobmuplat/</a>. Make a new working folder on your Desktop and move the MobMuPlat package there (get it out of your Downloads folder)
 4. For your mobile device, download MobMuPlat either from <a href="https://itunes.apple.com/kr/app/mobmuplat/id597679399?mt=8" target="_blank">iTunes store (iOS)</a> or <a href="https://play.google.com/store/apps/details?id=com.iglesiaintermedia.mobmuplat" target="_blank">Google Play store (Android)</a>.  It's a free app.
 5. For iOS, you'll need iTunes.  For Mac + Android, you can use Android file transfer:  <a href="https://www.android.com/filetransfer/" target="_blank">https://www.android.com/filetransfer/</a>  
-6. You'll need the appropriate sync cable for your device.  Alternatively you can transfer files on via AirDrop (iOS), e-mail, file-sharing apps.
+6. You'll need the appropriate sync cable for your device.  Alternatively you can transfer files via AirDrop (iOS), e-mail, or file-sharing apps.
 7. If you have Windows + Android, file transfer should be fairly straightforward, we'll figure it out.
 
 ---

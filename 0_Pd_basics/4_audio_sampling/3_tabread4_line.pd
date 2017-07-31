@@ -10,8 +10,8 @@
 #X text 383 525 <- turn on sound;
 #X obj 252 163 soundfiler;
 #N canvas 0 22 450 300 (subpatch) 0;
-#X array soundbuffer1 13147 float 2;
-#X coords 0 1 13147 -1 200 140 1;
+#X array soundbuffer1 5304 float 2;
+#X coords 0 1 5304 -1 200 140 1;
 #X restore 760 363 graph;
 #X obj 500 582 *~ 0.7;
 #X floatatom 533 555 5 0 1 0 - - -, f 5;
@@ -27,7 +27,7 @@ a sound file's values;
 #X obj 156 127 print open:;
 #X obj 156 209 print samples:;
 #X msg 88 287 0;
-#X msg 252 352 13147 298.118;
+#X msg 252 352 5304 120.272;
 #X text 126 285 1) set to beginning;
 #X text 353 348 2) last point in array \; and milliseconds to get there.
 ;
@@ -63,6 +63,8 @@ correctly;
 #X connect 8 1 7 1;
 #X restore 252 244 pd sampleConversion;
 #X msg 252 312 set \$1 \$2;
+#X msg 419 222 read -resize ./sounds/bossdr550mk2/Conga2.wav soundbuffer1
+;
 #X connect 0 0 1 0;
 #X connect 1 0 23 0;
 #X connect 1 0 17 0;
@@ -80,3 +82,4 @@ correctly;
 #X connect 24 0 9 0;
 #X connect 25 0 26 0;
 #X connect 26 0 20 0;
+#X connect 27 0 7 0;
