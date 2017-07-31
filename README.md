@@ -35,6 +35,7 @@ PART 2
 PART 3
 * Using system messages for accessing device sensors (tilt data)
 * Sampling (manipulating recorded sound)
+* Patch along: making a sample scrubber
 * Interaction ideas, looking at other examples, MobMuPlat examples
 * Group assignment: research and modify examples, experiment, create "sound multiple"
 * Discussion, work-time
