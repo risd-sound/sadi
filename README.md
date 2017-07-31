@@ -21,6 +21,8 @@ Shawn Greenlee (Associate Professor, RISD) will lead a workshop on designing sou
 
 PART 1
 
+* Introductions
+* Meet team members and name teams  
 * Quick overview of NIME (new interfaces for musical expression) and SID (sonic interaction design), examples, Pd as prototyping/development platform for mobile and embedded computing (i.e. product sound design, interactive art and music, apps and games)
 * Introduction to programming in Pd
 * Patch along: making a tone generator in Pd (sound synthesis basics)
