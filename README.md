@@ -25,24 +25,19 @@ PART 1
 * Meet team members and name teams  
 * Quick overview of NIME (new interfaces for musical expression) and SID (sonic interaction design), examples, Pd as prototyping/development platform for mobile and embedded computing (i.e. product sound design, interactive art and music, apps and games)
 * Introduction to programming in Pd
+
+PART 2
 * Patch along: making a tone generator in Pd (sound synthesis basics)
 * Introduction to GUI design with MobMuPlat editor
 * Patch along: making a GUI for tone generator
 * Transferring project files to your mobile device
-* Using system messages for accessing device sensors
-* Patch along: using accelerometer data with tone generator
-
-PART 2
-
-* Interaction ideas, looking at MobMuPlat examples
-* Sampling (manipulating recorded sound)
-* Tour of a drum machine
-* Tour of sample scrubbers
 
 PART 3
-
-* Group assignment and discussion
-* Work-time and assistance
+* Using system messages for accessing device sensors (tilt data)
+* Sampling (manipulating recorded sound)
+* Interaction ideas, looking at other examples, MobMuPlat examples
+* Group assignment: research and modify examples, experiment, create "sound multiple"
+* Discussion, work-time
 
 ---
 
