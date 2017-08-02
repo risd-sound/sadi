@@ -35,8 +35,9 @@ PART 2
 * Transferring project files to your mobile device
 
 PART 3
-* Using system messages for accessing device sensors (tilt data)
-* Sending messages to GUI
+* Modifying sample scrubber
+* Patch along: using system messages for accessing device sensors (tilt data)
+* Patch along: sending messages to GUI
 * Interaction ideas, looking at other examples, MobMuPlat examples
 * Group assignment: research and modify examples, experiment, create "sound multiple"
 * Discussion, work-time
