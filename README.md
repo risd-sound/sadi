@@ -32,7 +32,9 @@ PART 2
 * Patch along: making a sample scrubber in Pd
 * Introduction to GUI design with MobMuPlat editor
 * Patch along: making a GUI for sample scrubber
+* Install MobMuPlat on your mobile device (iOS or Android)
 * Transferring project files to your mobile device
+
 
 PART 3
 * Modifying sample scrubber
