@@ -48,6 +48,7 @@ PART 3
 
 **Additional resources:**
 
+* Pd tutorial: http://pd-tutorial.com
 * Fall 2016 course website for Programming Sound: Performance Systems:  <a href="https://sites.google.com/a/risd.edu/greenlee_psps_fa16/" target="_blank">https://sites.google.com/a/risd.edu/greenlee_psps_fa16/</a>  
 * Code from Programming Sound: Performance Systems course at RISD:  <a href="https://github.com/risd-sound/psps" target="_blank">https://github.com/risd-sound/psps</a>  
 * YouTube videos by Shawn using Pd-extended (not currently supported, but most applies): https://www.youtube.com/watch?v=HrX5y-vu0j8&feature=youtu.be&list=PLyFjYyw48iUd0MLWarDxpBIqhRaMNID95
